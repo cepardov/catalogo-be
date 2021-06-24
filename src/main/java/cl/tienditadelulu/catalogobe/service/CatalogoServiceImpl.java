@@ -52,7 +52,7 @@ public class CatalogoServiceImpl implements CatalogoService{
                         .price((int) productosDto.getPrice() + " CLP")
                         .link(productosDto.getLink())
                         .imageLink(productosDto.getImagenes().get(0).getImageLink())
-                        .brand("Tiendita de Lulu")
+                        .brand(productosDto.getManufacturer())
                         .visibility(visibility(productosDto.getActive()))
                         .googleTaxonomy("Health & Beauty > Personal Care > Cosmetics")
                         .build();
