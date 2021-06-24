@@ -1,5 +1,5 @@
 server:
-  port: 9091
+  port: 9092
 
 service:
   productsUrl: "http://localhost:9090/api/v1/catalogo"
