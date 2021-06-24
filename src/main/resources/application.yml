@@ -1,0 +1,7 @@
+server:
+  port: 9091
+
+service:
+  productsUrl: "http://localhost:9090/api/v1/catalogo"
+  productBlackList:
+    productIds: [ 73,94,157,158,308,309 ]
