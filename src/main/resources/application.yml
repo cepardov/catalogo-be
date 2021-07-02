@@ -4,4 +4,4 @@ server:
 service:
   productsUrl: "http://localhost:9090/api/v1/catalogo"
   productBlackList:
-    productIds: [ 70,73,90,94,157,158,273,308,309 ]
+    productIds: [ 70,73,90,94,157,158,163,273,308,309 ]
